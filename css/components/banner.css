@@ -1,0 +1,32 @@
+.banner {
+  color: #f9f2f2;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 4, 1, 0.1);
+   z-index: 10;
+}
+.banner h1, .banner h3 {
+  text-shadow: 2px 2px 5px rgba(32, 2, 2, 0.3);
+}
+
+.banner h1 {
+  font-size: 44px;
+  height: 15%
+}
+
+.container{
+ z-index: 30;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ padding: 0 30px;
+}
